@@ -4,11 +4,11 @@
 
 First run the server:
 ```
-go run UDPPinger.go
+go run UDPPingerServer.go
 ```
 The server will be running at the port 12000 and waiting to receive UDP packets.
 
-then run the client to ping the server:
+Then run the client to ping the server:
 ```
 go run UDPPingerClient.go $HOST:12000
 ```
